@@ -32,8 +32,9 @@ class Feature;
 class Point;
 
 /// A seed is a probabilistic depth estimate for a single pixel.
-struct Seed
+class Seed
 {
+public:
   EIGEN_MAKE_ALIGNED_OPERATOR_NEW
 
   static int batch_counter;

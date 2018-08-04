@@ -31,7 +31,7 @@ typedef g2o::VertexSE3Expmap g2oFrameSE3;
 namespace svo {
 
 class Point;
-struct Feature;
+class Feature;
 
 typedef list<Feature*> Features;
 typedef vector<cv::Mat> ImgPyr;

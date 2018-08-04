@@ -22,8 +22,9 @@
 namespace svo {
 
 /// A salient image region that is tracked across frames.
-struct Feature
+class Feature
 {
+public:
   EIGEN_MAKE_ALIGNED_OPERATOR_NEW
 
   enum FeatureType {
